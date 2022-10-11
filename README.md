@@ -8,9 +8,11 @@
 
 ### *__Definición:__* ###
 Git es un sistema de control de versiones, que nos ayuda a los usuarios a tener un historial completo de todas las modificaciones y avances que se han realizado. 
+
 ### *__Características:__* ###
  Este nos permite ir a versiones pasadas, ya que si esta mal lo hecho en el presente, volver a una versión reciente del pasado para no empezar de cero. Tambíen permite el trabajo por ramas, es decir, que si es un proyecto grupal, en este podemos trabjar cada uno diferentes ramas para después juntarlas. Hablando de esto, también hay una opción de clonar repositorios para asi trabajar de forma colaborativa y no molestar a tus compañeros. Por último, podemos trabajar de forma local, que esto evitará pérdidas en caso de que se pierda internet o algo así. Podremos trabajar en local con plataformas de desarollo colaborativas y asi alojar nuestro proyectos en la nube, con los repositorios remotos. 
-### *__¿Como se utliza?__* ###
+ 
+### *__¿Como se utiliza?__* ###
 1. Tenemos que crear un repositorio nuevo: <img width="948" alt="image" src="https://user-images.githubusercontent.com/113420749/195032040-7805ae32-8613-401a-806a-386f39355278.png">
 Cuando pongas la opción de nuevo repositorio deberás poner el nombre que quieras al repositorio. La opción de ser público o privado es dependiendo lo que quieras. La mejor opción es un repositorio público, ya que este lo podemos publicar en GitHub Pages. También podemos poner la opción de *README*, que es ideal si queremos un repositorio que se crea automáticamente y que también se inicializa. Si no queremos eso, no tenemos que marcar esa opción, se usará para crear un repositorio nuevo desde cero en local. A contiuación hay una tabla donde se explica los diferentes casos de si no ponemos el archivo *README*:
 
@@ -59,3 +61,10 @@ GitHub Pages sirve para publicar repositorios. Para subir uno, debemos hacer los
 Con todo esto, ya tenemos nuestro link para publicar nuestro repositorio.
 
 <hr>
+
+## MARKDOWN ##
+
+### *__Definición:__* ###
+Es un lenguaje de marcas llamdo "Markdown" que es usado por GitHub.
+
+### *__Etiquetas básicas:__* ###

@@ -68,3 +68,9 @@ Con todo esto, ya tenemos nuestro link para publicar nuestro repositorio.
 Es un lenguaje de marcas llamdo "Markdown" que es usado por GitHub.
 
 ### *__Etiquetas básicas:__* ###
+Primero de todo tenemos los encabezados, donde podemos elegir el tamaño según los # que pongamos delante de la palabra.
+
+# Encabezado 1 (H1)
+## Encabezado 2 (H2)
+### Encabezado 3 (H3)
+###### Encabezado 4 (H4)

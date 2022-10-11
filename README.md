@@ -29,4 +29,7 @@ Cuando pongas la opción de nuevo repositorio deberás poner el nombre que quier
 | echo "# BORRAR" >> README.md - Creamos el archivo readme.md con el contenido que queramos.|
 | git init - Inicializamos el repositorio GIT local vacío en la carpeta donde estamos situados.
 | git add README.md  - Añadimos el archivo readme al repositorio local
-| git push origin main (“main” o el nombre de la rama a sincronizar)  - Se sincronizan los elementos incluidos en el anterior commit al repositorio remoto y rama indicadas en los puntos anteriores.. |
+| git commit -m "first commit" - Commit es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto (se incluirán los archivos que hayamos hecho “add” anteriormente y le ponemos nombre identificativo a la nueva versión con el parámetro -m.. |
+| git branch -M main  - Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”. |
+| git remote add origin -  https://github.com/Alfie/BORRAR.git  asociamos un repositorio remoto indicando un identificador (origin) y su URL
+| git push -u origin main - Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.|

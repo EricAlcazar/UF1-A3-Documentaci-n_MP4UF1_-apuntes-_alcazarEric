@@ -52,6 +52,8 @@ Para importar un repositorio que ya tenemos, debemos ir a ese repositorio y a CO
 GitHub Pages sirve para publicar repositorios. Para subir uno, debemos hacer los siguientes pasos:
 1. Ir a _AJUSTES_
 2. Ir a pages abajo a la izquierda y escogemos a qué rama asociar “pages” (por defecto “main”) y a qué carpeta (por defecto “root”) y aplicamos configuración con “Save”: 
+
+
 ![image](https://user-images.githubusercontent.com/113420749/195041244-9e6c8c2e-abbc-4841-ab5d-fdb85f012ef2.png)
 
 Con todo esto, ya tenemos nuestro link para publicar nuestro repositorio.

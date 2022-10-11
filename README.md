@@ -44,3 +44,16 @@ Cuando pongas la opción de nuevo repositorio deberás poner el nombre que quier
 | git commit -m "first commit" - Commit es un conjunto de cambios que se realizan en los archivos del repositorio (modificar, añadir, eliminar, mover, renombrar, etc). Creamos el paquete de archivos a sincronizar con el repositorio remoto (se incluirán los archivos que hayamos hecho “add” anteriormente (en esta primera ocasión TODOS) y le ponemos nombre identificativo a la nueva versión con el parámetro -m.|
 | git branch -M main - Asociamos la versión a la rama de desarrollo que queramos. La rama por defecto es “main”.
 | git push -u origin main - Subimos los cambios al repositorio remoto y rama indicadas en los puntos anteriores.|
+
+
+Para importar un repositorio que ya tenemos, debemos ir a ese repositorio y a CODE. Ahí copiamos el link y lo guardamos. Más tarde vamos a crear un nuevo repositorio y le damos a la opcón de importar uno nuevo.
+
+### *__Que es GitHub Pages__* ###
+GitHub Pages sirve para publicar repositorios. Para subir uno, debemos hacer los siguientes pasos:
+1. Ir a _AJUSTES_
+2. Ir a pages abajo a la izquierda y escogemos a qué rama asociar “pages” (por defecto “main”) y a qué carpeta (por defecto “root”) y aplicamos configuración con “Save”: 
+![image](https://user-images.githubusercontent.com/113420749/195041244-9e6c8c2e-abbc-4841-ab5d-fdb85f012ef2.png)
+
+Con todo esto, ya tenemos nuestro link para publicar nuestro repositorio.
+
+<hr>

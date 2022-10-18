@@ -93,3 +93,5 @@ Aparte de estos dos estilos de letras, podemos hacer listas, tanto ordenadas com
 Este lenguaje nos permite hacer muchas cosas, como poner enlaces hacia otras páginas.
 Para hacer esto tenemos que poner el título que queramos entre "[]" y seguido el link que queremos enlazar entre parentesis. "()"
 [Gotham Knights](https://www.gothamknightsgame.com/es-es)
+
+También nos permite poner imágenes:

@@ -95,3 +95,6 @@ Para hacer esto tenemos que poner el título que queramos entre "[]" y seguido e
 [Gotham Knights](https://www.gothamknightsgame.com/es-es)
 
 También nos permite poner imágenes:
+
+![image](https://user-images.githubusercontent.com/113420749/196377503-95a4c030-0728-4d0b-ba6c-1a95cbb6093a.png)(Y pie de foto también")
+

@@ -128,3 +128,49 @@ Por último podemos hacer unas listas de verificación:
 <hr>
 
 ## ````HTML```` ##
+
+````  ¿QUE ES HTML?  ````
+
+HTML són les sigles de Hyper Text Markup Language. És un llenguatge de marques per descriure documents web (pàgines web) més usat actualment en el món web.
+
+```` ESTRUCTURA: ````
+
+- html: Elemento raíz del documento.
+- head: Espacio destinado a contener información del documento. 
+- title: Título descriptivo de la pàgina web. Normalmente aparece en la barra del navegador, también és el texto que se guarda en los marcadores del navegador (lista de direcciones de interès). 
+- meta: Metainformación de la página. Podemos poner diversas marcas <meta>, que dan información no visible del documento. 
+- body: Cos o contingut del document. 
+
+
+EJEMPLO DE HEAD
+
+```` 
+<head>
+   <meta charset="utf-8"/>
+   <title> Mipaginaweb  </title>
+</head>
+````
+
+EJEMPLO DE BODY
+Lo que se ve en medio del body es un coementario, que no aparecería en la página web
+
+````
+ <body> 
+<!-- Contenido de la web --> 
+</body> 
+````
+EXEMPLE HTML FINAL:
+
+````
+<!DOCTYPE html >
+<html>
+   <head>
+<meta charset="utf-8"/>
+  	<title>Mipaginaweb </title>
+   </head>
+   <body>
+<!-- Contenido de la web -->
+   </body>
+</html>
+````
+

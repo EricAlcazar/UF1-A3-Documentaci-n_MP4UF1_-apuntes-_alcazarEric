@@ -96,5 +96,20 @@ Para hacer esto tenemos que poner el título que queramos entre "[]" y seguido e
 
 También nos permite poner imágenes:
 
-![image](https://user-images.githubusercontent.com/113420749/196377503-95a4c030-0728-4d0b-ba6c-1a95cbb6093a.png)(Y pie de foto también")
+![image](https://user-images.githubusercontent.com/113420749/196377503-95a4c030-0728-4d0b-ba6c-1a95cbb6093a.png) Y pie de foto también
+
+__¿QUE TENEMOS QUE HACER PARA PEGAR UNA IMAGEN?__
+1. Escoger imagen
+2. Descargarla
+3. Copiarla
+4. Pegarla en el git
+
+Este sistema también nos permite hacer tablas, para ordenar diferentes factores:
+
+![image](https://user-images.githubusercontent.com/113420749/196378388-98ccd5ca-074e-48b2-b04d-b46706280030.png)
+
+- Los dos puntos se usan para alinear las columnas (izquierda, centrado, derecha).
+- No es necesario que estén alineadas verticalmente. Solo a nivel visual para claridad del código.
+- Se han de poner al menos tres guiones para separar cada encabezado
+
 

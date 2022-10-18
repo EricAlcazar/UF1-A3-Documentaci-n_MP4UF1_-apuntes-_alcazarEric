@@ -89,3 +89,5 @@ Aparte de estos dos estilos de letras, podemos hacer listas, tanto ordenadas com
 
 - Para hacer una lista __DESORDENADA__: 
 + Utilizar giones (signos de resta, suma) y también el asterisco de multiplicación.
+
+Este lenguaje nos permite hacer muchas cosas, como poner enlaces hacia otras páginas.

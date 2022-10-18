@@ -113,6 +113,6 @@ Este sistema también nos permite hacer tablas, para ordenar diferentes factores
 - Se han de poner al menos tres guiones para separar cada encabezado
 
 | Primero | Segundo | Tercero |
-| --------| :------:| -------:|
+| :------:| :------:| :------:|
 | Messi | Cristiano | Neymar |
 | Jordan | Kobe Bryant | Lebron James |

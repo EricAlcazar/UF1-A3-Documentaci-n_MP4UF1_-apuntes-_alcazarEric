@@ -112,4 +112,7 @@ Este sistema también nos permite hacer tablas, para ordenar diferentes factores
 - No es necesario que estén alineadas verticalmente. Solo a nivel visual para claridad del código.
 - Se han de poner al menos tres guiones para separar cada encabezado
 
-
+| Primero | Segundo | Tercero |
+| --------| :------:| -------:|
+| Messi | Cristiano | Neymar |
+| Jordan | Kobe Bryant | Lebron James |

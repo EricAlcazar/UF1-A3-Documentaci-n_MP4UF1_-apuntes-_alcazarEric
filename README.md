@@ -50,7 +50,7 @@ Cuando pongas la opción de nuevo repositorio deberás poner el nombre que quier
 
 Para importar un repositorio que ya tenemos, debemos ir a ese repositorio y a CODE. Ahí copiamos el link y lo guardamos. Más tarde vamos a crear un nuevo repositorio y le damos a la opcón de importar uno nuevo.
 
-### *__Que es GitHub Pages__* ###
+### *__¿Que es GitHub Pages?__* ###
 GitHub Pages sirve para publicar repositorios. Para subir uno, debemos hacer los siguientes pasos:
 1. Ir a _AJUSTES_
 2. Ir a pages abajo a la izquierda y escogemos a qué rama asociar “pages” (por defecto “main”) y a qué carpeta (por defecto “root”) y aplicamos configuración con “Save”: 

@@ -116,3 +116,15 @@ Este sistema también nos permite hacer tablas, para ordenar diferentes factores
 | :------:| :------:| :------:|
 | Messi | Cristiano | Neymar |
 | Jordan | Kobe Bryant | Lebron James |
+
+Por último podemos hacer unas listas de verificación:
+
+![image](https://user-images.githubusercontent.com/113420749/196380034-9b9c0016-629f-44d4-8481-a883da0f7d21.png)
+
+- [ ] A
+- [x] B
+- [ ] C
+
+<hr>
+
+## HTML ##

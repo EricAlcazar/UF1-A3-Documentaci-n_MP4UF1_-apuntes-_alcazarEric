@@ -74,3 +74,18 @@ Primero de todo tenemos los encabezados, donde podemos elegir el tamaño según 
 ## Encabezado 2 (H2)
 ### Encabezado 3 (H3)
 ###### Encabezado 4 (H4)
+
+También podemos utilizar diferentes estilos de letras. 
+- Itálica o cursiva: *texto* o _texto_ (utilizamos una barra baja al inicio y final de palabra o frase)
+- Negrita: **texto** o __texto__ (utilizamos dos barra bajas al inicio y final de palabra o frase)
+
+Aparte de estos dos estilos de letras, podemos hacer listas, tanto ordenadas como desordenadas.
+- Para hacer lista __ORDENADA__:
+1. Poner el uno, punto y después un espacio
+2. Das a enter y sigue haciendo
+3. Hasta el número que quieras
+4. Únicamente dando al enter
+5. Para parar de hacer la lista debemos dar doble enter y ya
+
+- Para hacer una lista __DESORDENADA__: 
++ Utilizar giones (signos de resta, suma) y también el asterisco de multiplicación.

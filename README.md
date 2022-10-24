@@ -186,7 +186,7 @@ Las etiquetas básicas de HTML son casi lo mismo que en GitHub, los encabezados 
 - Enlaces (<a>). Para convertir algún texto dentro de un párrafo en un vínculo, sigue estos pasos:
 
 
-`````¿Que es el Fontawesome?"````
+¿Que es el Fontawesome?
 
 Esto son iconos que puedes implementar en la ventana de tú página web. Un ejemplo de esto puede ser esto:
 

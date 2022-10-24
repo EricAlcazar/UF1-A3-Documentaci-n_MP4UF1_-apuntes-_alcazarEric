@@ -174,3 +174,44 @@ EXEMPLE HTML FINAL:
 </html>
 ````
 
+````Etiquetas````
+
+Las etiquetas básicas de HTML son casi lo mismo que en GitHub, los encabezados por ejemplo, la linea separatoria y para hacer un salto de linea. Ahora pondré las que son diferentes:
+
+- Las listas desordenadas son aquellas en las que el orden de los ítems no es relevante, como en una lista de compras. Estas son encerradas en un elemento <ul> (unordered list).
+- Las listas ordenadas son aquellas en las que el orden sí es relevante, como en una receta. Estas son encerradas en un elemento <ol> (ordered list).
+
+-  Párrafos (<p>). Se utilizan para encerrar párrafos de texto, entendiendo como párrafo un conjunto de frases relacionadas entre sí. Son elementos de bloque.
+
+- Enlaces (<a>). Para convertir algún texto dentro de un párrafo en un vínculo, sigue estos pasos:
+
+
+`````¿Que es el Fontawesome?"````
+
+Esto son iconos que puedes implementar en la ventana de tú página web. Un ejemplo de esto puede ser esto:
+
+![image](https://user-images.githubusercontent.com/113420749/197497276-35314abc-23cb-4ffd-a8eb-c378a52cb643.png)
+La imagen del gato de GitHub es lo que puede modificar el Fontawesome.
+
+COMO SE UTILIZA:
+
+````<script src="https://kit.fontawesome.com/09f87768b9.js" crossorigin="anonymous"></script>````
+
+Copia tu “kit's code” dentro de la sección <head> de cada página en tu proyecto donde quieras usar fontawrsome mediante ese kit. La parte subrayada dependerá del ID de tu kit’s code.
+
+Código de ejemplo:
+````
+     <!doctype html>
+      <html>
+        <head>
+          <!-- Poner el código de tu kit aqui directamente tal y como lo propone Fotawesome -->
+          <script src="https://kit.fontawesome.com/09f87768b9.js" crossorigin="anonymous"></script>
+        </head>
+
+        <body>
+          <i class="fa-solid fa-thumbs-up fa-5x"></i> <!-- El código lo da la plataforma en el propio icono -->
+        </body>
+      </html>
+````
+
+<hr>

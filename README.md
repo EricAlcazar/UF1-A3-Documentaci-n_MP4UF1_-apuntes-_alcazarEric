@@ -238,3 +238,5 @@ También se pueden definir diferentes hojas de estilo para un solo documento (X)
 
 *DESVENTAJAS*
 El gran inconveniente es que no todos los navegadores se comportan de la misma forma ante una hoja de estilo dado que algunos no cumplen con los estándares establecidos. Así, obligan al programador a crear diferentes hojas de estilo. 
+
+ 

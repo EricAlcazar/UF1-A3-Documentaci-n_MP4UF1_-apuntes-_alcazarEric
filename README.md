@@ -225,11 +225,13 @@ CSS en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfi
 ### *__Características:__* ###
 
 *FUNCIÓN:*
+
 Para evitar que HTML fuese el responsable de la parte estética y visual de la web se idearon las hojas de estilo y el lenguaje CSS (Cascading Style Sheets).
 Mientras que HTML estructura del documento e indica a los navegadores la función de un elemento en concreto (un vínculo, un título,....), el CSS da instrucciones al navegador sobre como ha de mostrar un elemento concreto: estilo, espaciado, posición..
 Aunque (X)HTML tiene marca relacionadas con la visualización y presentación en la web, es mejor no usarlas dado que estas etiquetas mezclan estructura y presentación del documento. CSS no es un lenguaje de programación como JavaScript ni un lenguaje de etiquetas como HTML.
 
 *VENTAJAS*
+
 - Posibilidad de mantener el código
 - A nivel de diseño, CSS es más potente que las etiquetas de diseño de (X)HTML.
 - CSS es un lenguaje sencillo.
@@ -237,6 +239,7 @@ Aunque (X)HTML tiene marca relacionadas con la visualización y presentación en
 También se pueden definir diferentes hojas de estilo para un solo documento (X)HTML, por ejemplo, un estilo para la página web cuando se visita desde un ordenador y otra para cuando queramos imprimirla. Además, se pueden reutilizar desde diferentes documentos (X)HTML.
 
 *DESVENTAJAS*
+
 El gran inconveniente es que no todos los navegadores se comportan de la misma forma ante una hoja de estilo dado que algunos no cumplen con los estándares establecidos. Así, obligan al programador a crear diferentes hojas de estilo. 
 
  

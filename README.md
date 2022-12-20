@@ -248,7 +248,7 @@ Una estructura es como vamos a poner la sintaxis CSS para que funcione. Esta est
  
 *TIPOS DE SELECTORES*
  
- - Selector de elementos:  Corresponde con todos los elementos de este nombre en la página. El siguiente ejemplo afectaría a TODOS los elementos <a> del documento HTML:
+ - Selector de elementos:  Corresponde con todos los elementos de este nombre en la página. El siguiente ejemplo afectaría a TODOS los elementos ``<a>`` del documento HTML:
  
 ````
  /* All <a> elements. (Nota) */
@@ -266,4 +266,61 @@ a {
 }
 ````
  
-Estas lineas afectarian a: fectaría a los siguientes elementos HTML:    ````<p class="example"> <li class="example"> <div class="example">````
+Estas lineas afectarian afectaría a los siguientes elementos HTML:    ````<p class="example"> <li class="example"> <div class="example">````
+ 
+- Selector de id: Corresponde a todos los elementos HTML que tienen un atributo id con el valor especificado.
+
+ ````
+ #example {
+   property: value;
+   property2: value2;
+}
+````
+Afectaría al siguiente elemento HTML (puede haber más de uno con el mismo ID): ````<p id="example">````
+ 
+
+### SELECTORES AVANZADOS ###
+
+- Selectores universales. Sirven para seleccionar todos los elementos de la página. En el  ejemplo, todos los elementos han de tener un borde solido negro de dos pixeles:
+
+````
+   * {
+         border: 2px solid #000000;
+   }
+````
+ 
+ - Selectores de atributos: Permiten seleccionar elementos en función de los atributos que contienen. En el ejemplo quedan afectados todos los elementos <img>. Es más útil si se especifica el valor del atributo:
+
+```` 
+   img[src="alert.gif"] {
+      border: 1px solid #000000;
+   }
+````
+
+- Selectores de hijos: Para seleccionar elementos concretos que son hijos DIRECTOS de otros elementos concretos. Por ejemplo, esta regla pone de color azul el texto de los elementos ``<strong>`` que son hijos de ``<h3>`` pero no el resto de elementos ``<strong>``
+
+````
+   h3>strong {
+      color: blue;
+   }
+````
+ 
+- Selectores de descendientes: Similar al selector de hijos pero, a diferencia de ellos, que solo seleccionan elementos descendientes DIRECTOS, los selectores de descendientes seleccionan los elementos pertinentes EN CUALQUIER PUNTO de la jerarquía del elemento.
+
+ ![image](https://user-images.githubusercontent.com/113420749/208623588-a883943d-ab15-4fbd-b4db-d7869618cce8.png)
+
+- Selectores de hermanos adyacentes: Permiten seleccionar un elemento concreto que aparece DIRECTAMENTE DESPUÉS de otro elemento concreto al mismo nivel de la jerarquía del elemento. Por ejemplo si quisiéramos reducir el espacio vertical entre el ``<h1>`` y el primer ``<h2>`` pero no afectar al segundo ``<h2>`` en el código siguiente:
+
+ ````
+   <h1>Encabezado 1 </h1>
+   <h2>Encabezado 2 (hermano adyacente) </h2>
+   <h2>Encabezado 2 (hermano no adyacente) </h2>
+````
+
+ Definiríamos la regla siguiente:
+
+ ````
+   h1+h2 {
+      margin-top: -5mm;
+   }
+````

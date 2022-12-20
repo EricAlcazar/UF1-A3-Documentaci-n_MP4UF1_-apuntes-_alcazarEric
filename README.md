@@ -249,11 +249,24 @@ Una estructura es como vamos a poner la sintaxis CSS para que funcione. Esta est
 *TIPOS DE SELECTORES*
  
  - Selector de elementos:  Corresponde con todos los elementos de este nombre en la página. El siguiente ejemplo afectaría a TODOS los elementos <a> del documento HTML:
- ````
+ 
+````
  /* All <a> elements. (Nota) */
 a {
    color: red;
 } 
 ````
 
-- 
+- Selector de clase: Corresponde con todos los elementos que tengan el atributo class con el valor especificado.
+ 
+````
+ .example {
+   property: value;
+   property2: value2;
+}
+````
+                     Estas lineas afectarian a: fectaría a los siguientes elementos HTML:
+                     <p class="example">
+                     <li class="example">
+                     <div class="example">
+

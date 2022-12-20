@@ -266,4 +266,4 @@ a {
 }
 ````
  
-Estas lineas afectarian a: fectaría a los siguientes elementos HTML:    <p class="example"> <li class="example"> <div class="example">
+Estas lineas afectarian a: fectaría a los siguientes elementos HTML:    ````<p class="example"> <li class="example"> <div class="example">````

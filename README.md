@@ -230,7 +230,7 @@ Para evitar que HTML fuese el responsable de la parte estética y visual de la w
 Mientras que HTML estructura del documento e indica a los navegadores la función de un elemento en concreto (un vínculo, un título,....), el CSS da instrucciones al navegador sobre como ha de mostrar un elemento concreto: estilo, espaciado, posición..
 Aunque (X)HTML tiene marca relacionadas con la visualización y presentación en la web, es mejor no usarlas dado que estas etiquetas mezclan estructura y presentación del documento. CSS no es un lenguaje de programación como JavaScript ni un lenguaje de etiquetas como HTML.
 
-*VENTAJAS*
+*VENTAJAS:*
 
 - Posibilidad de mantener el código
 - A nivel de diseño, CSS es más potente que las etiquetas de diseño de (X)HTML.
@@ -238,8 +238,22 @@ Aunque (X)HTML tiene marca relacionadas con la visualización y presentación en
 
 También se pueden definir diferentes hojas de estilo para un solo documento (X)HTML, por ejemplo, un estilo para la página web cuando se visita desde un ordenador y otra para cuando queramos imprimirla. Además, se pueden reutilizar desde diferentes documentos (X)HTML.
 
-*DESVENTAJAS*
+*DESVENTAJAS:*
 
 El gran inconveniente es que no todos los navegadores se comportan de la misma forma ante una hoja de estilo dado que algunos no cumplen con los estándares establecidos. Así, obligan al programador a crear diferentes hojas de estilo. 
 
+ *ESTRUCTURA:*
  
+Una estructura es como vamos a poner la sintaxis CSS para que funcione. Esta estructura contiene selectores que un selector nos sirve para definir a qué elemento o elementos queremos aplicar las declaraciones de la regla. Las declaraciones son las diversas características que han de cumplir los elementos que concuerdan con el selector. A cada propiedad de cada declaración le ponemos el valor que sea necesario.
+ 
+*TIPOS DE SELECTORES*
+ 
+ - Selector de elementos:  Corresponde con todos los elementos de este nombre en la página. El siguiente ejemplo afectaría a TODOS los elementos <a> del documento HTML:
+ ````
+ /* All <a> elements. (Nota) */
+a {
+   color: red;
+} 
+````
+
+- 

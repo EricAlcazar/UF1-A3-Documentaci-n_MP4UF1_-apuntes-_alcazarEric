@@ -324,3 +324,5 @@ Afectaría al siguiente elemento HTML (puede haber más de uno con el mismo ID):
       margin-top: -5mm;
    }
 ````
+
+ ### DAR FORMA PARA LA COMPOSICIÓN ###

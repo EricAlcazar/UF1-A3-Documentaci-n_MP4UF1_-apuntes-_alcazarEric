@@ -326,3 +326,16 @@ Afectaría al siguiente elemento HTML (puede haber más de uno con el mismo ID):
 ````
 
  ### DAR FORMA PARA LA COMPOSICIÓN ###
+ 
+Muchos elementos HTML como <div> o los títulos se representan por defecto de forma que ocupen todo el ancho del navegador y fuercen un salto de línea terminal. 
+El control del espacio en blanco en las hojas de estilo predeterminadas en los navegadores no es adecuado en la mayoría de los casos con lo que los especialistas en estilos acostumbran a usar a menudo los margenes (margin), bordes (border) y relleno (padding) y otras propiedades CSS que ayudan a componer el documento de forma adecuada.
+
+![image](https://user-images.githubusercontent.com/113420749/208626126-77abf253-44db-4a72-a6bd-67c0453ee346.png)
+
+
+| Margen (margin) | VALORES |
+| :--------------:| :------:|
+| margin-top (margen superior)| pixeles(px)|
+| margin-right (margen derecho)| como referencia del valor del font-size del elemento actual: em // Como referencia al valor html seria rem|
+| margin-bottom (margen inferior)| porcentaje:(%)|
+| margin-left (margen izquierdo)| automático:(auto)|

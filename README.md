@@ -337,5 +337,53 @@ El control del espacio en blanco en las hojas de estilo predeterminadas en los n
 | :--------------:| :------:|
 | margin-top (margen superior)| pixeles(px)|
 | margin-right (margen derecho)| como referencia del valor del font-size del elemento actual: em // Como referencia al valor html seria rem|
-| margin-bottom (margen inferior)| porcentaje:(%)|
-| margin-left (margen izquierdo)| automático:(auto)|
+| margin-bottom (margen inferior)| porcentaje(%)|
+| margin-left (margen izquierdo)| automático(auto)|
+
+| Bordes (border) |
+| :--------------:|
+| border-top|
+| border-right|
+| border-bottom|
+| border-left|
+
+| Relleno (padding) |
+| :----------------:|
+| padding-top|
+| padding-right|
+| padding-bottom|
+| padding-left|
+ 
+
+*GOOGLE FONTS*
+ 
+En https://fonts.google.com/ localizamos la familia de fuentes que queremos añadir. Entramos en ella y la añadimos con el “+” a la derecha.
+
+Esto hará que nos muestre a la derecha el código que hemos de insertar en la sección ``<head>`` de nuestro HTML en dos formatos, ``<link>`` e “@import” (para poner en una hoja de estilos externa). Justo a continuación aparecen también las reglas CSS que hemos de añadir al estilo para que el párrafo use la tipografía seleccionada.
+
+Un ejemplo de esto sería lo siguiente:
+
+````
+ <!doctype html>
+<html>
+    <head>
+        <!-- Inserción de origen de fontawesome-->
+        <script src="https://kit.fontawesome.com/09f87768b9.js" crossorigin="anonymous"></script>
+
+        <!-- Opción 1 para insertar Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <!-- Opción 2 para insertar Google Fonts, el @import se puede poner en un archivo css externo -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;500&family=Roboto:wght@400;500&display=swap');
+        </style>
+     </head>
+    <body>
+        <!-- Elemento de Fontawesome-->
+        <i class="fa-solid fa-arrow-right-to-bracket fa-2xl"></i> 
+        <!-- Insertar estilo de Google Fonts-->
+        <p style="font-family: 'Edu VIC WA NT Beginner', cursive; font-size:30px" >chess game</p>
+    </body>
+</html>
+````
